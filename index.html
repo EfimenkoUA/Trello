@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css" />
+</head>
+<body>
+	<header>
+		<div id="topheader">
+			<div id="buttonDesk">
+				<button id="btnDesk">
+					<span class="logoDesk"><img src="img/logo.png" alt=""></span>
+					<span class="btnDeskText">Доски</span>
+				</button>
+				<div class="buttonDeskMain">
+					<div class="searchDesk">
+						<input type="text" id="inputSearchDesk" placeholder="Поиск по названию...">
+					</div>
+					<div class="recent">
+						<div class="recentViz">
+							<div class="recentText">Недавние</div>
+							<div class="rBut"><button id="recentButton">+</button></div>
+							<div class="rButMin"><button id="recentButtonMin">-</button></div>
+						</div>
+					</div>
+					<div class="personalDesk">
+						<div class="personalDeskViz">
+							<div class="PersonalDeskText">Персональные доски</div>
+							<div class="pdBut"><button id="personalDeskButton">+</button></div>
+							<div class="pdButMin"><button id="personalDeskButtonMin">-</button></div>
+						</div>
+					</div>
+					<div class="newDesk otherDeskBlock">
+						<div>
+							<button id="newDeskBut" class="otherDeskBut">Создать новую доску...</button>
+						</div>
+					</div>
+					<div class="zakMenu otherDeskBlock">
+						<div>
+							<button id="zakMenuBut" class="otherDeskBut">Закрепить меню.</button>
+						</div>
+					</div>
+					<div class="clothDesk otherDeskBlock">
+						<div>
+							<button id="clothDeskBut" class="otherDeskBut">Закрытые доски...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="mainSourch">
+				<input id="sourchText" type="text">
+				<div class="headerLup">
+					<button id="headerLupButton"><img src="img/search.png" alt=""></button>
+				</div>
+				<div class="sourchTextClothe">
+					<button id="buttonSourchClother">X</button>
+				</div>
+			</div>
+			<div class="mainLogo">
+				<button id="logoButton"><img src="img/trello.png" alt=""></button>
+			</div>
+			<div class="plus">
+				<button id="plusButton">+</button>
+				<div class="plusTextMain">
+					<div class="plusHr">
+						<button id="plusTextMainCloth">X</button>
+					</div>
+					<div class="plusKart">
+						<button class="plusKartButton">
+							<h2 class="hh">Создание карточки</h2>
+							<p class="pp">Доска представляет собой совокупность карточек, упорядоченных в списках. Используйте ее для управления проектом, отслеживания или организации чего угодно.</p>
+						</button>
+					</div>
+					<div class="plusKart">
+						<button class="plusKartButton">
+							<h2 class="hh">Создание команды</h2>
+							<p class="pp">Команды представляют собой группу досок и людей. Используйте ее для организации работы вашей компании, вашей подработки, семейных дел или отдыха с друзьями.</p>
+						</button>
+					</div>
+					<div class="plusKart">
+						<button class="plusKartButton">
+							<h2 class="hh">Создание бизнес-команды</h2>
+							<p class="pp">Бизнес класс дает вашей команде большую безопасность, административный контроль и неограниченную суперсилу.</p>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="inform">
+				<button id="informButton">i</button>
+				<div class="informText">
+					<div class="informTextTop">
+						<div class="informTextTopText">
+							Информация
+						</div>
+						<div class="informTextTopCloth">
+							<button id="ittb">X</button>
+						</div>
+					</div>
+					<div class="inforFoto">
+						<div class="informFotoMain">
+							<div class="if">
+								
+							</div>
+							<div class="ift">
+								Усовершенствуйте доски с помощью улучшений Trello
+							</div>
+						</div>
+						<div class="podskazka">
+							<a class="podA" href="#">Новая подсказка.</a>
+						</div>
+					</div>
+					<div class="infosylka">
+						<div class="infoSylkaColum">
+							<div class="sylka">
+								<a class="sylkaA" href="#">Тур</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Цены</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Приложения</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Блог</a>
+							</div>
+						</div>
+						<div class="infoSylkaColum">
+							<div class="sylka">
+								<a class="sylkaA" href="#">Помощь</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Вакансии</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Разработчики</a>
+							</div>
+						</div>
+						<div class="infoSylkaColum">
+							<div class="sylka">
+								<a class="sylkaA" href="#">О нас</a>
+							</div>
+							<div class="sylka">
+								<a class="sylkaA" href="#">Юридическая информация</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="userTop">
+				<button id="userButton">UA</button>
+				<div class="userBlock">
+					<div class="TopNameUser">
+						<div class="NameUser">ЮЕ (user6775349576)</div>
+						<div class="clothUser"><button id="clothUserBut">X</button></div>
+					</div>
+					<div class="userSettingButton">
+						<ul class="userButSpis">
+							<li><button id="profileUser" class="ss">Профиль</button></li>
+							<li><button id="cartUser" class="ss">Карточки</button></li>
+							<li class="specSet"><button id="settingUser" class="ss">Настройки</button></li>
+							<li><button id="helpUser" class="ss">Помощь</button></li>
+							<li><button id="hotKeyUser" class="ss">Горячие клавиши</button></li>
+							<li class="specSet"><button id="chengLenUser" class="ss">Сменить язык...</button></li>
+							<li><button id="gooutUser" class="ss">Выйти</button></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="searchBlockHeader">
+			<div class="typeRezSearch">
+				Результаты поиска
+			</div>
+			<div class="rezSearch">
+				
+			</div>
+			<hr class="sa">
+			<h4>Нужна помощь в использовании Trello?</h4>
+			<p>Посетите <a href="">наш справочный сайт</a> или прочтите <a href="">руководство по началу работы</a></p>
+		</div>
+	</header>
+	<main>
+		<div class="mainBlock">
+			<div class="persDesk">
+				<div class="persDeskName">
+					<h4>Персональные доски</h4>
+				</div>
+				<div class="spisokPersDesk">
+					<div class="spisokPersDeskBlock1">
+						<button id="bod">Создать новую доску</button>
+					</div>
+				</div>
+				<div class="createNewDesk">
+					<button id="createNewDeskBut">Создать новую доску...</button>
+				</div>
+				<div class="createNewDeskForm">
+					<div class="createNewDeskFormTop">
+						<div class="createNewDeskFormTopText">Создание доски</div>
+						<div class="createNewDeskFormTopBut">
+							<button id="cndftb">X</button>
+						</div>
+					</div>
+					<h4 class="nazvDesk">Название</h4>
+					<div class="searchDesk">
+						<input type="text" id="inputNameDesk" placeholder="Например, Школьное исследование..">
+					</div>
+					<h4 class="nazvDesk">Команда</h4>
+					<p class="textTeamParag">Команды позволяют делиться и работать в группе еще проще. Похоже вы не являетесь участником каких-либо команд.</p>
+					<button id="sozdatkom">Создать команду.</button>
+					<p class="textTeamParag">Доска будет <span class="priv">Приватная</span>. <button id="changeKom">Изменить.</button></p>
+					<button id="mcb">Создать</button>
+				</div>
+			</div>
+			<div class="teamDesk">
+				<div class="createNewTeam">
+					<button id="createNewTeamBut">Создать новую команду...</button>
+				</div>
+			</div>
+		</div>
+		<div class="secondBlock">
+			<div class="secondBlockHeader">
+				<div class="secondBlockHeaderLeft">
+					<div><button class="secondBlockDeskNameButton sbdnb"></button></div>
+					<div><button class="secondBlockPersNameButton sbdnb">Персональная</button></div>
+					<div><button class="secondBlockPrivNameButton sbdnb"></button></div>
+				</div>
+				<div class="secondBlockHeaderRight">
+					<div>
+						<button id="menuDeskButt" class="secondBlockDeskNameButton sbdnb">...Меню</button>
+					</div>
+					<div class="menuDeskBlok">
+						<div class="menuDeskBlockHeader">
+							<div class="menuDeskBlockHeaderText">
+								Меню
+							</div>
+							<div class="menuDeskBlockHeaderClother">
+								<button id="clothDeskbutton">X</button>
+							</div>
+						</div>
+						<div class="buttonDelDeskButtonBlock">
+							<button id="buttonDelDesk">Удалить доску...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mainSp">
+				<div class="formNewSp">
+					<input id="inputNewSp" type="text" placeholder="Добавить список...">
+					<div class="formNewSpBut">
+						<button id="saveNewSp">Сохранить</button>
+						<button id="closeCreatNewSp">X</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="changeCartBlock">
+			<div class="changeCartBlockLeft">
+				<div class="textareaBlock">
+					<textarea id="cartNameTextarea"></textarea>
+				</div>
+
+				<button id="saveNewNameCart">Сохраить</button>
+			</div>
+			<div class="changeCartBlockRight">
+				<ul class="changeCartBlockButton">
+					<li><button class="ccb">Изменить метки</button></li>
+					<li><button class="ccb">Изменить участников</button></li>
+					<li><button class="ccb">Переместить</button></li>
+					<li><button class="ccb">Копировать</button></li>
+					<li><button class="ccb">Изменить срок</button></li>
+					<li><button class="ccb" id="deleteCart">Удалить</button></li>
+				</ul>
+			</div>
+			<div class="changeCartBlockClothe">
+				<button id="ccbc">X</button>
+			</div>
+		</div>
+	</main>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

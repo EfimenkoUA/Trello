@@ -1,0 +1,1430 @@
+body{
+	margin: 0 auto;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+/*===========================================HEADER==================================*/
+header{
+	position: relative;
+}
+#topheader{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	max-width: 2000px;
+	background: #1389cc;
+	padding: 5px 10px;
+}
+#buttonDesk{
+	width: 6%;
+	margin-right: 0.8%;
+}
+#btnDesk{
+	padding: 6px 7px;
+	border: none;
+	border-radius: 3px;
+	background: #50b5ee;
+	color: #ffffff;
+	position: relative;
+}
+#btnDesk:hover{
+	background: #139eec;
+	cursor: pointer;
+}
+.logoDesk img{
+	width: 20%;
+	position: absolute;	
+}
+.btnDeskText{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 25px;
+}
+.buttonDeskMain{
+	position: absolute;
+	z-index: 8;
+	width: 240px;
+	top: 44px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+	padding: 10px;
+	background: #f7f4f4;
+	border-radius: 3px;
+	display: none;
+}
+#inputSearchDesk,
+#inputNameDesk{
+	width: 98%;
+	padding: 5px 2px;
+	font-size: 15px;
+	color: #696767;
+	border-radius: 3px;
+	border: none;
+	background: #e7e2e2;
+	border: 1px solid #cecccc;
+}
+#inputSearchDesk:hover{
+	border: 1px solid #a2a0a0;
+	transition: .4s;
+}
+#inputSearchDesk:focus{
+	background: #ffffff;
+}
+.searchBlockHeader{
+	position: absolute;
+	z-index: 9;
+	background: #edeff0;
+	width: 600px;
+	top: 42px;
+	border-radius: 3px;
+	left: 100px;
+	padding: 5px 10px;
+	display: none;
+}
+.typeRezSearch{
+	font-weight: bold;
+}
+.searchBlockHeader h4,
+.searchBlockHeader p{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.sa {
+background-color: #cecccc;
+color: #cecccc;
+height: 1px;
+border: none;
+
+}
+.recentViz,
+.personalDeskViz{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.recentText,
+.PersonalDeskText{
+	width: 90%;
+	padding-left: 10px;
+	font-size: 17px;
+	color: #a1a3a4;
+}
+.rBut,
+.pdBut{
+	width: 10%;
+	background: none;
+	display: block;
+}
+#recentButton,
+#personalDeskButton{
+	outline: none;
+	border: none;
+	color: #a1a3a4;
+	font-size: 19px;
+	background: none;
+	border-radius: 4px;
+}
+#recentButton:hover{
+	cursor: pointer;
+	background:#d6d9da; 
+	color:#595a5a;
+}
+#personalDeskButton:hover{
+	cursor: pointer;
+	background:#d6d9da; 
+	color:#595a5a;
+}
+.rButMin,
+.pdButMin{
+	display: none;
+	width: 10%;
+	background: none;
+}
+#recentButtonMin,
+#personalDeskButtonMin{
+	outline: none;
+	border: none;
+	color: #a1a3a4;
+	font-size: 19px;
+	background: none;
+	border-radius: 4px;
+	padding: 1px 8px;
+}
+#recentButtonMin:hover{
+	cursor: pointer;
+	background:#d6d9da; 
+	color:#595a5a;
+}
+#personalDeskButtonMin:hover{
+	cursor: pointer;
+	background:#d6d9da; 
+	color:#595a5a;
+}
+.otherDeskBlock{
+	margin: 5px 0;
+}
+.otherDeskBut{
+	width: 100%;
+	text-align: left;
+	border: none;
+	background: none;
+	outline: none;
+	padding: 5px 8px;
+	color: #a1a3a4;
+	font-size: 15px;
+	text-decoration: underline;
+	border-radius: 3px;
+}
+.otherDeskBut:hover{
+	cursor: pointer;
+	background: #e7e2e2;
+	color: #696767;
+}
+/*===================================mainSourch=======================*/
+#mainSourch{
+	width: 35%;
+	
+}
+
+#sourchText{
+	height: 88.5%;
+	width: 36%;
+	border: none;
+	border-radius: 3px;
+	background: #50b5ee;
+	font-size: 14px;
+	padding-left: 2px;
+	
+}
+#sourchText:hover{
+	background: #139eec;
+}
+.headerLup{
+	position: absolute;
+	left: 17%;
+	top: 10px;
+}
+#headerLupButton{
+	background: none;
+	border: none;
+	outline: none;
+}
+#headerLupButton:hover{
+	cursor: pointer;
+}
+#headerLupButton img{
+	width: 70%;
+}
+.sourchTextClothe{
+	position: absolute;
+	left: 16%;
+	top: 9px;
+	display: none;
+}
+#buttonSourchClother{
+	border: none;
+	background: none;
+	color: #ffffff;
+	font-size: 18px;
+	outline: none;
+}
+#buttonSourchClother:hover{
+	cursor: pointer;
+}
+.mainLogo{
+	width: 10%;
+	margin: 0 5px;
+	margin-right: 38%;
+}
+#logoButton{
+	background: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+#logoButton:hover{
+	cursor: pointer;
+}
+#logoButton img{
+	width: 71%;
+	border-radius: 3px;
+}
+.plus{
+	
+	position: relative;
+}
+#plusButton{
+	height: 100%;
+	width: 145%;
+	border: none;
+	border-radius: 3px;
+	font-size: 20px;
+	color: #ffffff;
+	background: #50b5ee;
+}
+#plusButton:hover{
+	background: #139eec;
+	cursor: pointer;
+}
+.plusTextMain{
+	position: absolute;
+	width: 300px;
+	right: -100px;
+	top: 40px;
+	border: 1px solid #cecccc;
+	padding: 10px;
+	background: #f7f4f4;
+	border-radius: 3px;
+	display: none;
+	z-index: 9;
+}
+.plusHr{
+	border-bottom: 1px solid #cecccc;
+	text-align: right;
+	margin-bottom: 8px;
+}
+#plusTextMainCloth{
+	color: #cecccc; 
+	border: none;
+	background: none;
+	padding-bottom: 8px;
+	outline: none;
+}
+#plusTextMainCloth:hover{
+	cursor: pointer;
+}
+.plusKartButton{
+	background: none;
+	border: none;
+	outline: none;
+}
+.plusKartButton:hover{
+	cursor: pointer;
+	background: #50b5ee;
+	width: 106%;
+	margin-left: -3%;
+	padding-left: 5%;
+}
+.plusKartButton h2{
+	margin: 5px 0;
+	font-size: 16px;
+	color: #383737;
+	-ms-text-align-last: left;
+	-ms-text-align-last: left;
+	text-align-last: left;
+}
+.plusKartButton:hover>.hh{
+	color: #ffffff;
+}
+
+.plusKartButton p{
+	margin: 6px 0;
+	-ms-text-align-last: left;
+	text-align: left;
+	color: #a4a0a0;
+}
+.plusKartButton:hover>.pp{
+	color: #ffffff;
+}
+.inform{
+	margin-left: 18px;
+	width: 33px;
+	height: 30px;
+	position: relative;
+}
+#informButton{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	color: #ffffff;
+	background: #50b5ee;
+}
+#informButton:hover{
+	background: #139eec;
+	cursor: pointer;
+}
+.informText{
+	position: absolute;
+	display: none;
+	width: 300px;
+	right: -50px;
+	top: 40px;
+	z-index: 9;
+	border: 1px solid #cecccc;
+	padding: 10px;
+	background: #f7f4f4;
+	border-radius: 3px;
+}
+.informTextTop{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	border-bottom: 1px solid #cecccc;
+	padding-bottom: 4px;
+}
+.informTextTopText{
+	width: 95%;
+	text-align: center;
+	color: #777676;
+	font-size: 17px;
+}
+#ittb{
+	border: none;
+	background: none;
+	color: #777676;
+	font-size: 14px;
+	outline: none;
+}
+#ittb:hover{
+	cursor: pointer;
+}
+.inforFoto{
+	margin-top: 10px;
+	padding-bottom: 7px;
+}
+.if{
+	width: 100%;
+	height: 130px;
+	background: #7410a8;
+	border-radius: 3px;
+}
+.ift{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0 5%;
+	color: #504f50;
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+}
+.informFotoMain{
+	border-radius: 0 0 3px 3px;
+}
+.informFotoMain:hover{
+	cursor: pointer;
+	background: #e7e4e9;
+}
+.podskazka{
+	text-align: center;
+	font-size: 17px;
+	padding: 3px 0;
+	border-radius: 3px;
+}
+.podskazka a{
+	color: #817d83;
+	margin-bottom: 13px;
+}
+.podskazka:hover{
+	background: #e7e4e9;
+	cursor: pointer;
+}
+.podskazka:hover> .podA{
+	color: #474648;
+}
+.infosylka{
+	border-top: 1px solid #cecccc;
+	margin-top: 5px;
+	padding-top: 15px;
+}
+.infoSylkaColum{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 5px;
+}
+.sylka{
+	padding: 3px 10px;
+}
+.sylka:hover{
+	background: #e7e4e9;
+	cursor: pointer;
+}
+.sylka:hover > .sylkaA{
+	color: #474648;
+}
+.sylkaA{
+	color: #817d83;
+}
+
+/*==============================================USERNAME=================================*/
+.userTop{
+	margin-left: 6px;
+	position: relative;
+}
+#userButton{
+	height: 100%;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+}
+#userButton:hover{
+	cursor: pointer;
+	background: #cecccc;
+}
+.userBlock{
+	position: absolute;
+	z-index: 9;
+	width: 300px;
+	right: -25px;
+	top: 40px;
+	border: 1px solid #cecccc;
+	padding: 10px;
+	background: #f7f4f4;
+	border-radius: 3px;
+	display: none;
+}
+.TopNameUser,
+.createNewDeskFormTop{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cecccc;
+	color: #9f9d9d;
+}
+.NameUser,
+.createNewDeskFormTopText{
+	width: 93%;
+	text-align: center;
+}
+.clothUser,
+.createNewDeskFormTopBut{
+	width: 7%;
+}
+.clothUser:hover{
+	cursor: pointer;
+}
+#clothUserBut,
+#cndftb{
+	color:#9f9d9d;
+	background: none;
+	border: none;
+	outline: none;
+}
+#clothUserBut:hover{
+	cursor: pointer;
+}
+.userButSpis{
+	margin-bottom: 1px;
+}
+.ss{
+	width: 100%;
+	-ms-text-align-last: left;
+	text-align-last: left;
+	margin-bottom: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3b3a3a;
+	padding: 6px 0;
+	background: none;
+	border: none;
+	outline: none;
+}
+.ss:hover{
+	cursor: pointer;
+	background: #50b5ee;
+	color: #ffffff;
+	width: 107%;
+	margin-left: -10px;
+	padding-left: 10px;
+}
+.specSet{
+	border-bottom: 1px solid #cecccc;
+	margin-bottom: 2px;
+}
+
+
+/*=================================================main===================================*/
+.mainBlock{
+	margin: 1% 4%;
+	display: block;
+	height: 100%;
+	display: block;
+}
+.persDeskName,
+.teamPersName{
+	display: none;
+}
+.persDesk{
+	position: relative;
+}
+.createNewDesk{
+	z-index: 1;
+}
+#createNewDeskBut,
+#createNewTeamBut{
+	margin-top: 4%;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	font-size: 15px;
+	outline: none;
+	color: #a1a3a4;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+#createNewDeskBut:hover{
+	cursor: pointer;
+	background: #e7e2e2;
+	color: #696767;
+}
+#createNewTeamBut:hover{
+	cursor: pointer;
+	background: #e7e2e2;
+	color: #696767;
+}
+.persDeskName{
+	display: none;
+	margin-top: 2%;
+}
+.persDeskName h4{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.createNewDeskForm{
+	position: absolute;
+	display: none;
+	width: 300px;
+	
+	top: 40px;
+	border: 1px solid #cecccc;
+	padding: 10px;
+	background: #f7f4f4;
+	border-radius: 3px;
+}
+.createNewDeskFormTopBut:hover{
+	cursor: pointer;
+}
+#cndftb:hover{
+	cursor: pointer;
+}
+.nazvDesk{
+	margin: 9px 0;
+	color: #3a3838;
+}
+#inputNameDesk:hover{
+	border: 1px solid #a2a0a0;
+	transition: .4s;
+}
+#inputNameDesk:focus{
+	background: #ffffff;
+}
+.textTeamParag{
+	color: #888888;
+	font-size: 16.5px;
+	margin: 1px 0 0 0;
+}
+#sozdatkom,
+#changeKom{
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 15px;
+	outline: none;
+	text-decoration: underline;
+	color:#888888;
+	margin-bottom: 11px;
+}
+#sozdatkom:hover{
+	cursor: pointer;
+}
+#changeKom:hover{
+	cursor: pointer;
+}
+.textTeamParag span {
+	font-weight: bold;
+}
+#mcb{
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 7px 25px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background-color: #33c244;
+}
+#mcb:hover{
+	cursor: pointer;
+	background: #36ab43;
+	transition: .4s;
+}
+.spisokPersDesk{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.spisokPersDeskBlock,
+.spisokPersDeskBlock1{
+	min-width: 24%;
+	position: relative;
+	border-radius: 3px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.buttonOpenDesk{
+	z-index: 9;
+	width: 100%;
+	text-align: left;
+	padding: 5px 0 70px 10px;
+	background: #1389cc;
+	border-radius: 3px;
+	border: none;
+	color: #ffffff;
+	font-size: 18px;
+	outline: none;
+}
+.buttonOpenDesk:hover{
+	background: #0a6ca4;
+	cursor: pointer;
+	transition: .4s;
+}
+#bod{
+	width: 100%;
+	padding: 36px 0 39px 0px;
+	background: #e2e4e6;
+	border-radius: 3px;
+	border: none;
+	color: #838c91;
+	font-size: 18px;
+	outline: none;
+}
+#bod:hover{
+	background: #d3d5d7;
+	cursor: pointer;
+	transition: .4s;
+	color: #5b6164;
+}
+.buttonOpenDeskDel{
+	position: absolute;
+}
+/*==========================================secondBlock===========================*/
+.secondBlock{
+	display: none;
+	background: #16a0ef;
+	padding: 10px;
+	z-index: 1;
+}
+.secondBlockHeader{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+.secondBlockHeaderLeft{
+	width: 30%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+.secondBlockHeaderLeft div{
+	padding: 0 5px;
+}
+.secondBlockHeaderLeft div:last-child{
+	border-right: none;
+}
+.sbdnb{
+	background: none;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 7px;
+}
+.sbdnb:hover{
+	background: #1389cc;
+	cursor: pointer;
+}
+.secondBlockHeaderRight{
+	width: 70%;
+	position: relative;
+}
+.secondBlockHeaderRight div {
+	text-align: right;
+}
+.mainSp{
+	padding: 15px 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.formNewSp{
+	width: 19%;
+	padding: 3px;
+	border-radius: 3px;
+}
+#inputNewSp{
+	width: 95%;
+	padding: 10px 5px;
+	border: none;
+	background: #1389cc;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	outline: none;
+}
+#inputNewSp:hover{
+	cursor: pointer;
+	background:#0f7dbc;
+	transition: .4s; 
+}
+
+#inputNewSp::-webkit-input-placeholder { 
+	color:#71c1ee; 
+}
+#inputNewSp::-ms-input-placeholder { 
+	color:#71c1ee; 
+}
+#inputNewSp:-ms-input-placeholder { 
+	color:#71c1ee; 
+}
+#inputNewSp::-moz-input-placeholder { 
+	color:#71c1ee; 
+}
+#inputNewSp:-moz-input-placeholder { 
+	color:#71c1ee; 
+}
+.formNewSpBut{
+	display: none;
+}
+#saveNewSp{
+	color: #ffffff;
+	font-weight: bold;
+	border:none;
+	border-radius: 5px;
+	background: #19ad31;
+	padding: 8px 15px;
+	font-size: 16px;
+}
+#saveNewSp:hover{
+	cursor: pointer;
+	background: #17a52e;
+	transition: .4s;
+}
+#closeCreatNewSp{
+	font-size: 16px;
+	outline: none;
+	background: none;
+	border:none;
+	color: #646667;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#closeCreatNewSp:hover {
+	cursor: pointer;
+}
+.sp{
+	width: 18%;
+	background: #e6e2e2;
+	border-radius: 3px;
+	margin-right: 10px;
+	padding: 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.topHeaderSp{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+.inpHeaderSp{
+	width: 83%;
+}
+.inp{
+	width: 100%;
+	border-radius: 3px;
+	padding: 5px;
+	border:none;
+	background:#e6e2e2;
+	font-weight: bold; 
+	outline: none;
+	margin-bottom: 3px;
+}
+.inp:hover{
+	cursor: pointer;
+}
+.inp:focus{
+	background: #ffffff;
+}
+.menuSpis{
+	width: 10%;
+	text-align: right;
+	margin-left: 7%;
+}
+.butMenuSpis{
+	border:none;
+	background: none;
+	outline: none;
+	font-weight: bold;
+	border-radius: 3px;
+	padding-bottom: 8px;
+}
+.butMenuSpis:hover{
+	background: #c9c6c6;
+	cursor: pointer;
+}
+.addCartButton{
+	width: 100%;
+	margin-top: 5px;
+	border: none;
+	background: none;
+	padding: 4px;
+	color: #a29f9f;
+	text-align: left;
+	border-radius: 3px;
+	outline: none;
+}
+.addCartButton:hover{
+	background: #d3cece;
+	cursor: pointer;
+	color: #828080;
+	text-decoration: underline;
+}
+#nameNewcart{
+	margin-top: 3px;
+	width: 98%;
+	height: 4em;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+}
+.addNewCart{
+	display: none;
+}
+.addCartButtonBlock{
+	margin-top: 2px;
+	display: none;
+}
+#addNewCartBut{
+	font-weight: bold;
+	font-size: 15px;
+	padding: 7px 10px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background-color: #33c244;
+	margin-right: 2px;
+}
+#addNewCartBut:hover{
+	cursor: pointer;
+	background: #36ab43;
+	transition: .4s;
+}
+#closeAddNewCartBlock{
+	color: #999;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 4px 8px;
+	border: none;
+	outline: none;
+	background: none;
+}
+#closeAddNewCartBlock:hover{
+	cursor: pointer;
+}
+#addCartMenu{
+	margin-left: 35%;
+	font-weight: bold;
+	font-size: 22px;
+	color: #999;
+	outline: none;
+	background: none;
+	border: none;
+}
+#addCartMenu:hover{
+	cursor: pointer;
+}
+.divCart{
+	position: relative;
+	
+}
+.battonCart{
+	background: #ffffff;
+	color: grey; 
+	border:none;
+	width: 100%;
+	text-align: left;
+	padding: 7px 7px;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	position: relative;
+	outline: none;
+	z-index: 5;
+}
+.battonCart:hover{
+	cursor: pointer;
+	background: #f0ecec;
+}
+.settingCart{
+	position: absolute;
+	right: 4px;
+	z-index: 9;
+	top: 4px;
+	display: none;
+}
+.changeCart{
+	border: none;
+	background: none;
+	font-size: 17px;
+	padding: 2px 10px;
+	border-radius: 3px;
+	outline: none;
+}
+.changeCart:hover{
+	cursor: pointer;
+	background: #f0ecec;
+}
+.divCart:hover>.settingCart{
+	display: block;
+}
+
+/*=================================changeCartBlock==============================*/
+.changeCartBlock{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	max-width: 1366px;
+	width: 91%;
+	position: absolute;
+	top: 50px;
+	background: rgba(0,0,0,.7);
+	padding: 6% 4% 10px 5%;
+	display: none;
+	z-index: 9;
+	margin-top: -3.7%;
+	
+}
+.changeCartBlockLeft{
+	width: 21%;
+}
+.changeCartBlockRight{
+	width: 20%;
+}
+#cartNameTextarea{
+	width: 92%;
+	padding:5px 5px;
+	height: 7em;
+	border: none;
+	border-radius: 4px;
+	background: #fff;
+	margin-bottom: 8px;
+	outline: none;
+}
+#saveNewNameCart{
+	border: none;
+	background-color: #33c244;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 35px;
+	font-size: 15px;
+	border-radius: 4px;
+	outline: none;
+}
+#saveNewNameCart:hover{
+	background: #36ab43;
+	cursor: pointer;
+}
+.changeCartBlockButton{
+	margin: 0 auto;
+}
+.ccb{
+	margin-bottom: 3px;
+	outline: none;
+	border:none;
+	border-radius: 2px;
+	color: #fff;
+	padding: 5px 15px;
+	background: #0b092d;
+	font-size: 15px;
+}
+.ccb:hover{
+	cursor:pointer;
+	margin-left: 5px;
+	transition: .2s;
+}
+.changeCartBlockClothe{
+	width: 59%;
+	text-align: right;	
+}
+#ccbc{
+	position: absolute;
+	top: 5px;
+	padding: 5px 9px;
+	font-size: 18px;
+	font-weight: bold;
+	border:none;
+	background: rgba(0,0,0,.2);
+	color: grey;
+	border-radius: 15px;
+	outline: none;
+}
+#ccbc:hover{
+	font-size: 19px;
+	color: #fff;
+	transition: .4s;
+	cursor: pointer;
+	padding: 4px 9px;
+}
+.changeSpisok{
+	position: absolute;
+	background: #fff;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 100%;
+	top: 1px;
+	width: 250px;
+	border-radius: 3px;
+	z-index: 8;
+}
+.changeSpisocHeader{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	border-bottom: solid 1px #d6dadc;
+	color:grey;
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+.changeSpisocHeaderText{
+	width: 90%;
+	text-align: center;
+}
+#butCloherChSp{
+	background: none;
+	border:none;
+	color: grey;
+	outline: none;
+}
+#butCloherChSp:hover{
+	cursor: pointer;
+}
+#peremSpButton,
+#dSpButton{
+	font-weight: bold;
+	background: none;
+	border:none;
+	outline: none;
+	width: 100%;
+	text-align: left;
+	padding: 5px 0;
+}
+#peremSpButton:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #16a0ef;
+	width: 110%;
+	margin-left: -5px;
+	padding-left: 5px;
+}
+#dSpButton:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #16a0ef;
+	width: 110%;
+	margin-left: -5px;
+	padding-left: 5px;
+}
+.chooseDeskMain{
+	position: absolute;
+	background: #fff;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 100%;
+	top: 1px;
+	width: 250px;
+	border-radius: 3px;
+	z-index: 8;
+}
+.chooseBlockHeader{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	border-bottom: solid 1px #d6dadc;
+	color:grey;
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+.chooseBlockHeaderPrev{
+	width: 10%;
+}
+#chooseBlockPrevBut{
+	background: none;
+	border:none;
+	outline: none;
+	color: grey;
+}
+#chooseBlockPrevBut{
+	cursor: pointer;
+}
+.headerTextChooseBlock{
+	text-align: center;
+	width: 80%;
+}
+.chooseBlockClothe{
+	width: 10%;
+}
+#chooseButClothe{
+	background: none;
+	border:none;
+	outline: none;
+	color: grey;
+}
+#chooseButClothe:hover{
+	cursor: pointer;
+}
+#chooseDeskButton{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+	background: #e6e2e2;
+	border:none;
+	padding: 5px 8px;
+	border-radius: 3px;
+	color: grey;
+	line-height: 1.5;
+	outline: none;
+}
+#chooseDeskButton:hover{
+	cursor: pointer;
+	background: #d3cece;
+}
+#chooseDeskButton span{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+#chooseDesk{
+	border: none;
+    background-color: #33c244;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 35px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+}
+#chooseDesk:hover{
+	background: #36ab43;
+    transition: .4s;
+    cursor: pointer;
+}
+.selectBlock{
+	background: #fff;
+	border:1px solid blue;
+	margin-top: -5px;
+	padding: 3px 5px;
+}
+.selectBlock h5{
+	margin: 0 auto;
+
+}
+.selectBlock ul {
+	margin: 3px 0;
+}
+.selectBlock li{
+	padding-left: 15px;
+}
+.selectBlock li:hover {
+	background: #16a0ef;
+	color: white;
+	cursor: pointer;
+}
+.menuDeskBlok{
+	margin-top: 10px;
+	width: 250px;
+	right: 5px;
+	background: #fff;
+	border-radius: 3px;
+	position: absolute;
+	padding: 5px;
+	display: none;
+}
+.menuDeskBlockHeader{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	border-bottom: solid 1px #d6dadc;
+	margin-bottom: 8px;
+	color: grey;
+}
+.menuDeskBlockHeaderText{
+	width: 90%;
+	text-align: center!important;
+	
+}
+.menuDeskBlockHeaderClother{
+	width: 10%;
+	text-align: center!important;
+}
+.menuDeskBlockHeaderClother:hover{
+	cursor: pointer;
+}
+#buttonDelDesk{
+	width: 100%;
+	background: none;
+	border:none;
+	outline: none;
+	font-weight: bold;
+	padding: 5px 5px;
+	text-align: left;
+}
+#buttonDelDesk:hover{
+	color: #fff;
+	background: #16a0ef;
+	cursor: pointer;
+}
+#clothDeskbutton{
+	background: none;
+	border:none;
+	outline: none;
+	color: grey;
+}
+#clothDeskbutton:hover{
+	cursor: pointer;
+}
+.rezSearch{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	text-align: center;
+	
+}
+.desk,
+.spisok,
+.cart{
+	width: 32%;
+}
+.rezBut{
+	border:none;
+	margin: 2px 2px;
+	padding: 4px 7px;
+	background: #ffffff;
+	border-radius: 2px;
+}
+.rezBut:hover{
+	cursor: pointer;
+	background: #50b5ee;
+	color: #fff;
+}
